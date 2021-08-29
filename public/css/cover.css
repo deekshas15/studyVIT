@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    background-color: black;
+   
+
+}
+
+.btn {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+footer {
+    padding: 25px;
+    color: white;
+    background-color: gray;
+    text-align: center;
+
+}
+
+.header {
+    font-size: 160px;
+     font-family: 'Bangers', cursive;
+     color: black;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("course.jpg");
+
+    /* Full height */
+    height: 1000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:0;
+
+
+}
+
+.parallax2 {
+    height:1000px;
+    background-image: url("tt.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    height:1000px;
+    background-image: url("map.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.text {
+    color: white;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    padding: 0;
+    margin:0;
+}
+
+
+@media only screen and (max-width: 480px) {
+    
+    .parallax, .parallax2, .parallax3 {
+        width:100%;
+       
+    }
+
+    .header {
+        font-size: 80px;
+        font-family: 'Bangers', cursive;
+    }
+
+    .img {
+        width: 100%;
+
+    }
+
+    .logo {
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    .logo {
+        width: 200px;
+    }
+    
+}
